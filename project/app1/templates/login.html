@@ -8,6 +8,7 @@
 <body>
     <h1 align="center">----------Login Page-----------</h1>
     <div align="center">
+        {{msg}}
     {% comment %} <form action="{% url 'userlogin' %}" method="post">  {% endcomment %}
         <form action="{% url 'login' %}" method="post">
         {% csrf_token %}
